@@ -667,11 +667,11 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"a0t4e":[function(require,module,exports,__globalThis) {
-var _math = require("../src/utils/math");
+var _math = require("./utils/math");
 const result = (0, _math.add)(5, 3) + (0, _math.multiply)(2, 4);
 document.querySelector("#result").textContent = `\u{420}\u{435}\u{437}\u{443}\u{43B}\u{44C}\u{442}\u{430}\u{442}: ${result}`;
 
-},{"../src/utils/math":"8g4jr"}],"8g4jr":[function(require,module,exports,__globalThis) {
+},{"./utils/math":"8g4jr"}],"8g4jr":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "add", ()=>add);
